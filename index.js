@@ -111,8 +111,8 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-if (text.includes("#say")){
-  const teks = text.replace(/#say /, "")
+if (text.includes("#cuy")){
+  const teks = text.replace(/#cuy /, "")
 conn.sendMessage(id, teks, MessageType.text)
 }
 
